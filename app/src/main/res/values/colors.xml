@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="logo_primary_teal">#600018</color>
+    <color name="logo_on_primary_white">#FFFFFF</color>
+
+    <color name="md_theme_primary">@color/logo_primary_teal</color>
+    <color name="md_theme_onPrimary">@color/logo_on_primary_white</color>
+    <color name="md_theme_primaryContainer">#FFDADA</color> <color name="md_theme_onPrimaryContainer">#230004</color> <color name="md_theme_secondary">#D99026</color>
+    <color name="md_theme_onSecondary">@color/white</color>
+    <color name="md_theme_secondaryContainer">#FFDEB7</color>
+    <color name="md_theme_onSecondaryContainer">#473000</color>
+
+    <color name="md_theme_background">#FFFFFF</color>
+    <color name="md_theme_onBackground">#1A1C1E</color>
+    <color name="md_theme_surface">#FFFFFF</color>
+    <color name="md_theme_onSurface">#1A1C1E</color>
+    <color name="md_theme_surfaceVariant">#EEF2F4</color>
+    <color name="md_theme_onSurfaceVariant">#41474D</color>
+    <color name="md_theme_outline">#D2D2D2</color>
+    <color name="md_theme_outlineVariant">#EBEBEB</color>
+
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_onError">@color/white</color>
+    <color name="md_theme_errorContainer">#FFDAD6</color>
+    <color name="md_theme_onErrorContainer">#410002</color>
+
+    <color name="selected_category_background">@color/md_theme_primaryContainer</color>
+    <color name="selected_category_text">@color/md_theme_onPrimaryContainer</color>
+    <color name="default_category_text">@color/md_theme_onSurface</color>
+
+    <color name="glass_background">#33FFFFFF</color>
+    <color name="glass_outline">#1AFFFFFF</color>
+</resources>

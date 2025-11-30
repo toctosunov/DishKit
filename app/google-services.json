@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "99962584596",
+    "project_id": "lazzat-10cf3",
+    "storage_bucket": "lazzat-10cf3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99962584596:android:98926cabce08fc40e63101",
+        "android_client_info": {
+          "package_name": "kgz.senior.dishkit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoePdK6Q7_1lMqSdbllUz9bqeY1df2jcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
