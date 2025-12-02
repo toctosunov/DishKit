@@ -38,6 +38,17 @@
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Material3.LargeComponent</item>
 
     </style>
-
     <style name="Theme.DishKit" parent="Base.Theme.DishKit" />
+
+    <style name="CustomLightAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorSurface">@android:color/white</item>
+
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
 </resources>

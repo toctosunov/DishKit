@@ -1,6 +1,9 @@
 package kgz.senior.dishkit.view.admin;
 
+import static android.graphics.Color.parseColor;
+
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -262,7 +265,7 @@ public class DishesFragment extends Fragment implements AdminMenuAdapter.OnMenuI
 
     // --- Диалог добавления/редактирования блюда ---
     private void showAddEditDishDialog(@Nullable MenuItem itemToEdit) {
-        AlertDialog.Builder builder = new MaterialAlertDialogBuilder(requireContext());
+        AlertDialog.Builder builder = new MaterialAlertDialogBuilder(requireContext(), R.style.CustomLightAlertDialog);
         View dialogView = getLayoutInflater().inflate(R.layout.dialog_add_edit_dish, null);
         builder.setView(dialogView);
 
@@ -353,7 +356,13 @@ public class DishesFragment extends Fragment implements AdminMenuAdapter.OnMenuI
         });
         builder.setNegativeButton("Отмена", (dialog, which) -> dialog.dismiss());
 
+
         AlertDialog dialog = builder.create();
+
+        if (dialog.getWindow() != null) {
+            dialog.getWindow().setBackgroundDrawableResource(R.drawable.my_custom_dialog_background);
+        }
+
         dialog.show();
     }
 
